@@ -1,14 +1,14 @@
 {
   "name": "generator-hoodie",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A generator for hoodie",
   "keywords": [
     "yeoman-generator",
     "hoodie",
     "nobackend"
   ],
-  "homepage": "https://github.com/ro-ka/generator-hoodie",
-  "bugs": "https://github.com/ro-ka/generator-hoodie/issues",
+  "homepage": "https://github.com/hoodiehq/generator-hoodie",
+  "bugs": "https://github.com/hoodiehq/generator-hoodie/issues",
   "author": {
     "name": "Robert Katzki",
     "email": "robert@katzki.de",
@@ -17,7 +17,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ro-ka/generator-hoodie.git"
+    "url": "git://github.com/hoodiehq/generator-hoodie.git"
   },
   "scripts": {
     "test": "mocha"
