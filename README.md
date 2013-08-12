@@ -1,5 +1,6 @@
 # Generator-hoodie
 [![Build Status](https://secure.travis-ci.org/ro-ka/generator-hoodie.png?branch=master)](https://travis-ci.org/ro-ka/generator-hoodie)
+[![NPM version](https://badge.fury.io/js/generator-hoodie.png)](http://badge.fury.io/js/generator-hoodie)
 
 A yeoman generator for hoodie apps.
 
