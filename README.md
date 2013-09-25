@@ -5,8 +5,6 @@
 A yeoman generator for hoodie apps.
 
 ## Getting started
-- Make sure you have [yo](https://github.com/yeoman/yo) installed:
-    `npm install -g yo`
 - Install the generator: `npm install -g generator-hoodie`
 - Run: `yo hoodie`
 
