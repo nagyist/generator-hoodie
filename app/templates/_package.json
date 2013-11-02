@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "type": "app",
   "dependencies": {
-    "hoodie-app": "git://github.com/hoodiehq/hoodie-server.git",
-    "hoodie-worker-users": "git://github.com/hoodiehq/worker-users.git"
-  },
+    "hoodie-server": "~0.8.14",
+    "hoodie-plugin-appconfig": "~0.1.0",
+    "hoodie-plugin-email": "~0.1.1",
+    "hoodie-plugin-users": "0.0.9"  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-copy": "~0.4.1",
