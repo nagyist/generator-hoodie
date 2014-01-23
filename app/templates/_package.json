@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "app",
   "dependencies": {
-    "hoodie-server": "~0.8.14",
+    "hoodie-server": "0.9.1",
     "hoodie-plugin-appconfig": "~0.1.0",
     "hoodie-plugin-email": "~0.1.1",
     "hoodie-plugin-users": "0.0.9"  },
@@ -36,6 +36,6 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    "start": "node node_modules/hoodie-server/bin/start --no-open-browser"
+    "start": "hoodie start -n"
   }
 }
