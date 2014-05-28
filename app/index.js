@@ -5,7 +5,7 @@ var path = require('path');
 var yeoman = require('yeoman-generator');
 
 
-var HoodieGenerator = module.exports = function HoodieGenerator(args, options, config) {
+var HoodieGenerator = module.exports = function HoodieGenerator(args, options) {
   yeoman.generators.Base.apply(this, arguments);
 
   this.on('end', function () {
