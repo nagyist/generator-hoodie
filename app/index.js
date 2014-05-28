@@ -48,7 +48,6 @@ HoodieGenerator.prototype.createFolders = function createFolders() {
 HoodieGenerator.prototype.createFiles = function createFiles() {
   this.copy('_main.styl', 'app/styles/main.styl');
   this.copy('_main.js', 'app/scripts/main.js');
-  this.copy('_hoodie.js', 'app/scripts/hoodie.js');
   this.copy('jade/_default.jade', 'app/jade/layouts/_default.jade');
   this.copy('jade/_index.jade', 'app/jade/index.jade');
 };

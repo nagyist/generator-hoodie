@@ -1,4 +1,4 @@
-!!!
+doctype html
 html
   head
     title <%= _.slugify(projectName) %>
@@ -22,6 +22,6 @@ html
 
       // build:js /scripts/main.js
       script(src='/bower_components/jquery/jquery.js')
-      script(src='/scripts/hoodie.js')
+      script(src='/bower_components/hoodie/dist/hoodie.js')
       script(src='/scripts/main.js')
       // endbuild

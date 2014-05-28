@@ -9,10 +9,7 @@ To use this project:
 ```bash
 git clone
 npm install
-hoodie start
 ```
-
-You have to run hoodie start once to set up everything.
 
 ### Development
 
