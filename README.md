@@ -14,8 +14,6 @@ After you scaffolded your project, you'll recognize a lot of folders and files i
 ### Develop
 - Run `grunt server`. This will start hoodie in the background and open up a browser tab, serving files from `http://localhost:9000` per default. Now grunt takes care of compiling the `jade` and `stylus` files, will reload the tab on changes in our code and so on.
 
-**Note**: At the moment, the `hoodie start` in the background opens a tab, too. This one will give you an error, as the mentioned `www` folder is not present. Use the tab opened by grunt (`http://localhost:9000`) instead.
-
 ### Deploy
 - When the hoodie app is ready for prime time, run `grunt build`. This will minimize and concat all the js, css, optimize images and so on. All these production ready files end up in the `www` folder.
 - Copy the `www` folder and the `package.json` to your server.
